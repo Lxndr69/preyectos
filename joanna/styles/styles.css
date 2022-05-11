@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/body.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} 
+body.body1{
+    background-image: url(../img/index.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.card{
+    background-color: rgb(221, 141, 184);
+    margin: 4% 40%;
+    padding-bottom: 2%;
+
+}
+.outlet{
+    font-size:5rem;
+}
+.titulo{
+    text-align:center;
+    font-size: 4rem;
+    background-color: rgb(254, 213, 255);
+    margin: 2% 15%;
+}
+.entrasale{
+    background-color: rgb(231, 174, 204);
+   width: 40%;
+   height: 200px;
+   align-items: center;
+   font-size: 2rem;
+   padding: 2% 2%;
+   margin: 4% 30%;
+
+}
+.botones{
+    background-color: aliceblue;
+    width: 7%;
+}
+.inputs{
+    
+}
+.columnas{
+    column-count: auto;
+}
+table, th, td {
+    border:1px solid black;
+    background-color: aliceblue;
+}
